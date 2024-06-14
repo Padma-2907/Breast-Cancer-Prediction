@@ -1,1 +1,2 @@
 # Breast-Cancer-Prediction
+I have made breast cancer prediction using machine learning. I have downloaded the dataset from Kaggle. It predicts whether the cancer is benign or malignant based on various features like Radius,texture,smoothness etc. First I visualized the data and removed any oultliers present. After that I used GridSearchCV and hypertuning to determine the best classification technique and parameter. After using GridSearchCV, I found that RandomizedForest classifier gives the best results with n_estimators=5. The accuracy of the model is approx 95%. 
